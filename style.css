@@ -1,0 +1,28 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 6px;
+    background-color: red;
+    color: blue;
+    margin: 20px;
+}
+
+.text {
+    padding: 20px;
+    border-radius: 6px;
+    background-color: white;
+    color: green;
+    margin: 20px;
+}
+
+.col {
+    flex: 1;
+    text-align: center;
+}
